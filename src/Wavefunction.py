@@ -23,5 +23,5 @@ for n in range(1, 5):
     if n == 1:
         plt.xlabel("x")
         plt.legend(loc="lower right")
-plt.suptitle("Wavefunction from Schrödinger equation")
+plt.suptitle("Wavefunction from Schrodinger equation")
 plt.show()
