@@ -24,4 +24,5 @@ for n in range(1, 5):
         plt.xlabel("x")
         plt.legend(loc="lower right")
 plt.suptitle("Wavefunction from Schrodinger equation")
+plt.savefig("./src/Wavefunction.png", dpi=300, facecolor="w", edgecolor="w")
 plt.show()
