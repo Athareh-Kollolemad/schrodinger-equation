@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-plt.figure(figsize=(5, 10), dpi=120)
+plt.figure(figsize=(5, 10), dpi=110)
 pi = np.pi
 L = 2*pi
 x_val = np.linspace(0, L, 100)
