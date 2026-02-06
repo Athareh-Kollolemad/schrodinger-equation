@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-plt.figure(figsize=(5, 10), dpi=110)
+plt.figure(figsize=(4, 7), dpi=110)
 pi = np.pi
 L = 2*pi
 x_val = np.linspace(0, L, 100)
@@ -24,5 +24,5 @@ for n in range(1, 5):
         plt.xlabel("x")
         plt.legend(loc="lower right")
 plt.suptitle("Wavefunction from Schrodinger equation")
-plt.savefig("./src/Wavefunction.png", dpi=250, facecolor="w", edgecolor="w")
+plt.savefig("./src/Wavefunction.png", dpi=300, facecolor="w", edgecolor="w")
 plt.show()
